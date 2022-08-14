@@ -1,0 +1,14 @@
+﻿module Transactions.Operations
+
+open System
+
+open Transactions.Domain
+
+module Accounts =
+    let deposit account amount=
+        { account with Balance = account.Balance + amount }
+
+    let withdraw account amount =
+        { account with Balance = account.Balance - amount }
+
+    

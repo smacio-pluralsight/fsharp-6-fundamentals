@@ -1,0 +1,1 @@
+{"Id":0,"Balance":115,"Transactions":[{"Id":0,"Type":{"Case":"Deposit"},"Amount":100},{"Id":1,"Type":{"Case":"Withdraw"},"Amount":25},{"Id":2,"Type":{"Case":"Deposit"},"Amount":40}]}

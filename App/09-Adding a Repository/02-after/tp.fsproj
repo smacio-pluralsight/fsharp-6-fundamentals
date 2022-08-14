@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Compile Include="Utils.fs" />
+	  <Compile Include="Domain.fs" />
+	  <Compile Include="Rules.fs" />
+	  <Compile Include="Repo.fs" />
+	  <Compile Include="Driver.fs" />
+	  <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.SystemTextJson" Version="0.17.4" />
+  </ItemGroup>
+
+</Project>
